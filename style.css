@@ -1,0 +1,137 @@
+@media screen and (max-width: 600px) {
+  body {
+    display: flex;
+    width: 375px;
+    height: 667px;
+    padding: 85px 27px 85px 28px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--Light-Grey, #d5e1ef);
+  }
+
+  img {
+    width: 288px;
+    height: 288px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #2c7dfa;
+  }
+
+  #rectangle {
+    width: 320px;
+    height: 497px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: var(--White, #fff);
+    box-shadow: 0px 25px 25px 0px rgba(0, 0, 0, 0.05);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  #textbox {
+    text-align: center;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  #header {
+    width: 288px;
+    color: var(--Dark-Navy, #1f314f);
+    font-family: Outfit;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    font-feature-settings: "clig" off, "liga" off;
+  }
+
+  #text {
+    padding-top: 16px;
+    width: 256px;
+    color: var(--Grey, #7d889e);
+    font-family: Outfit;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.188px;
+    text-align: center;
+    font-feature-settings: "clig" off, "liga" off;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  body {
+    display: flex;
+    width:auto;
+    height: auto;
+    padding: 152px 0px 151px 0px;
+    justify-content: center;
+    align-items: center;
+    background: var(--Light-Grey, #d5e1ef);
+  }
+
+  img {
+    width: 288px;
+    height: 288px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #2c7dfa;
+  }
+
+  #rectangle {
+    display: flex;
+    width: 320px;
+    height: 497px;
+    border-radius: 20px;
+    box-shadow: 0px 25px 25px 0px rgba(0, 0, 0, 0.05);
+    background: var(--White, #fff);
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    align-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  #textbox {
+    text-align: center;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  #header {
+    width: 288px;
+    color: var(--Dark-Navy, #1f314f);
+    font-family: Outfit;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    font-feature-settings: "clig" off, "liga" off;
+  }
+
+  #text {
+    padding-top: 16px;
+    width: 256px;
+    color: var(--Grey, #7d889e);
+    font-family: Outfit;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.188px;
+    text-align: center;
+    font-feature-settings: "clig" off, "liga" off;
+  }
+}
